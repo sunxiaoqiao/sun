@@ -71,5 +71,5 @@ python remote_exec_py2.py -m shell - g client -c 'hostname'
 python remote_exe_py2c.py -m shell - g client -c src=/root/sun.txt dest=/sun"
 ```
 # 前提条件
-1、由于该脚本基于paramiko模块开发，所以此python务必先安装paramiko模块
-2、执行操作命令的脚本，必须实现ssh免登陆到相应服务器上
+1、`由于该脚本基于paramiko模块开发，所以此python务必先安装paramiko模块`
+2、`执行操作命令的脚本，必须实现ssh免登陆到相应服务器上`
