@@ -58,7 +58,7 @@ Usage:./remote_exec_py2.py -m [shell|copy] -g [group] -c [command]
 -g : 服务器组，在hosts配置文件中定义
 -c :
     ◆ 当-m为shell时，-c后面为shell的操作命令，如 -c "hostname",获取主机名
-    ◆ 当-m为copy是，表示执行文件上传，如 -c “src=/root/sun.txt dest=/sun",src表示本地需要上传的文件，dest表示上传远端服务器的文件路径
+    ◆ 当-m为copy时，表示执行文件上传，如 -c “src=/root/sun.txt dest=/sun",src表示本地需要上传的文件，dest表示上传远端服务器的文件路径
 ```
 > 批量执行shell命令
 ```
