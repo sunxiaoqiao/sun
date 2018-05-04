@@ -15,7 +15,7 @@
 * control_exec_py3.py : 自动化运维脚本，应用于Python3平台
 * hosts   : 配置主机信息文件
 * keys : 声明私钥的路径的文件
-#配置文件
+# 配置文件
 >hosts配置文件
 ```
 # cat hosts
