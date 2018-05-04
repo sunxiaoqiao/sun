@@ -1,0 +1,10 @@
+[all:]
+other:
+client:
+
+[client]
+zabbix : 192.168.136.130
+client : 192.168.136.129
+
+[other]
+other : 192.168.136.128
